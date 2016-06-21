@@ -1,6 +1,6 @@
 # Lerna tutorial
 
-First off, What is `lerna`? `lerna` is a tool that allows you to maintain multiple `npm` packages within one repository.
+First off, What is [`lerna`](https://github.com/lerna/lerna)? [`lerna`](https://github.com/lerna/lerna) is a tool that allows you to maintain multiple `npm` packages within one repository.
 
 There's a couple of benefits to this kind of approach, the paradigm is called a `monorepo`, and more can be read about it from the [source of `babel`, and `react`](https://github.com/babel/babel/blob/master/doc/design/monorepo.md).
 
@@ -14,7 +14,7 @@ Here's the gist:
 
 ## Getting started.
 
-For this demo I'm going to be using `lerna@2.0.0-beta.20`. `lerna` is a CLI (command line interface) tool. You're going to want to install it with the `--global` (`-g`) flag.
+For this demo I'm going to be using `lerna@2.0.0-beta.20`. [`lerna`](https://github.com/lerna/lerna) is a CLI (command line interface) tool. You're going to want to install it with the `--global` (`-g`) flag.
 
 ```
 npm i lerna@2.0.0-beta.20 -g
@@ -128,7 +128,7 @@ Linking all dependencies
 Successfully bootstrapped 3 packages.
 ```
 
-Now using the `tree` command once more (`brew install tree`) we can see the folder structure we can see what `lerna` did.
+Now using the `tree` command once more (`brew install tree`) we can see the folder structure we can see what [`lerna`](https://github.com/lerna/lerna) did.
 
 ```
 .
@@ -156,7 +156,7 @@ Now using the `tree` command once more (`brew install tree`) we can see the fold
         └── package.json
 ```
 
-It added two `stubbed` (my term not `lerna`'s) modules. If you peak inside `/packages/usage/node_modules/alpha/index.js` you can see what I mean.
+It added two `stubbed` (my term not [`lerna`](https://github.com/lerna/lerna)'s) modules. If you peak inside `/packages/usage/node_modules/alpha/index.js` you can see what I mean.
 
 > contents of `./packages/usage/node_modules/alpha/index.js`
 
