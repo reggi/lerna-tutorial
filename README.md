@@ -1,5 +1,20 @@
 # Lerna tutorial
 
+## TLDR;
+
+* `npm install` (installs lerna)
+* `lerna bootstrap` (connects all the packages)
+* `npm -C ./packages/usage run start` (console logs "alpha" and "beta" from combind use example module)
+
+* Tree Structure
+
+* `packages`
+  * `alpha` (`deps: []`)
+  * `beta` (`deps: []`)
+  * `usage` (`deps: ["alpha", "beta"]`)
+
+## Summary
+
 First off, What is [`lerna`](https://github.com/lerna/lerna)? [`lerna`](https://github.com/lerna/lerna) is a tool that allows you to maintain multiple `npm` packages within one repository.
 
 There's a couple of benefits to this kind of approach, the paradigm is called a `monorepo`, and more can be read about it from the [source of `babel`, and `react`](https://github.com/babel/babel/blob/master/doc/design/monorepo.md).
