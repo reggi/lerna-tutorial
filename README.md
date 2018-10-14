@@ -38,7 +38,7 @@ npm i lerna@2.0.0-beta.20 -g
 Then once it's done installing your going to want to run the following
 
 ```
-lerna init
+mkdir my-monorepo && cd $_ && lerna init
 ```
 
 This will do a couple of things.
