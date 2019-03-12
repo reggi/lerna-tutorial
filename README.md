@@ -181,7 +181,7 @@ module.exports = require("/Users/thomas/Desktop/lerna-tutorial/packages/alpha");
 
 > Note: This is an absolute path to the module. So if you ever move your lerna project you'll need to rerun `lerna bootstrap`.
 
-And volia! When we run `node ./packages/usage/index.js` we get our expected output!
+And voila! When we run `node ./packages/usage/index.js` we get our expected output!
 
 ```
 alpha beta
